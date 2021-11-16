@@ -1,11 +1,41 @@
 # tensorflow-yolov4-tflite
+
+<!-- Explicação do projeto -->
+ 
+<h1 align="left">Projeto Integrador 8(pi08)</h1>
+<h3 align="left"> Centro Universitário SENAC - Engenharia da Computação </h3>
+<h2 align="left"> 🧾 Descrição </h2>
+<p align="left"> Repositório com parte do Projeto Integrador 8 - parte de visão computacional e dados para o dashboard </p>
+<p align="left"> implantação do algoritmo de visão computacional para uso com tensorflow lite, o treinamento foi feito em Darknet com o framework YOLOv4</p>
+
+
+ <!-- Status  -->
+ <h2 align="left"> ⁉ Status </h2>
+<h4 align="left"> 
+	<p align="left">🚧 Em construção... 🚧</p>
+</h4>
+
+
+<!-- Technologies involved -->
+<!--
+<div align="left" class='container'>
+	<h2 align="left"> 🛠 Tecnologias envolvidas</h2>
+		<a href="https://www.python.org/" target="_blank" align = "left"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" width="120" height="30" alt="Python3" /></a>
+		<a href="https://jupyter.org/" target="_blank" align = "left"> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" width="120" height="30" alt="Jupyter" /></a>
+		<a href="https://www.jetbrains.com/pt-br/pycharm/download/" target="_blank" align = "left"> <img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white" width="120" height="30" alt="Pycharm" /></a>
+	<a href="https://nbcgib.uesc.br/mirrors/cran/" target="_blank" align = "left"> <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" width="120" height="30" alt="R" /></a>
+	
+	
+
+</div>-->
+						 
+
+
+
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 YOLOv4, YOLOv4-tiny Implemented in Tensorflow 2.0. 
 Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for tensorflow, tensorflow lite, tensorRT.
-
-Download yolov4.weights file: https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT
-
 
 ### Prerequisites
 * Tensorflow 2.3.0rc0

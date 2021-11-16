@@ -1,3 +1,18 @@
 python save_model.py --weights C:\Users\barba\Desktop\tensorflow-yolov4-tflite\data\custom-yolov4-tiny-detector_last.weights --output ./checkpoints/yolov4-tiny-416 --input_size 416 --model yolov4 --tiny 
 
 python save_model.py --weights C:\Users\barba\Desktop\tensorflow-yolov4-tflite\data\custom-yolov4-tiny-detector_last.weights --output ./checkpoints/yolov4-tiny-pretflite-416 --input_size 416 --model yolov4 --tiny --framework tflite
+
+python detect.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --model yolov4 --image ./data/test_aprovado.jpg --tiny
+
+python detectvideo.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --model yolov4 --video ./video.mp4 --output ./data/results.mp4
+
+python convert_tflite.py --weights ./checkpoints/yolov4-tiny-pretflite-416 --output ./checkpoints/yolov4-tiny-416.tflite
+
+
+python save_model.py --weights C:\Users\barba\Desktop\tensorflow-yolov4-tflite\data\custom-yolov4-tiny-detector_last.weights --output ./checkpoints/yolov4-tiny-pretflite-416 --input_size 416 --model yolov4 --tiny --framework tflite
+
+python convert_tflite.py --weights ./checkpoints/yolov4-tiny-pretflite-416 --output ./checkpoints/yolov4-tiny-416.tflite
+
+python detect.py --weights ./checkpoints/yolov4-tiny-416.tflite --model yolov4 --tiny --image ./data/test_defeito.jpg --framework tflite
+
+python detectvideo.py --weights ./checkpoints/yolov4-tiny-416.tflite --model yolov4 --tiny --video ./video.mp4  --output ./data/results.mp4 --score 0.60 --framework tflite

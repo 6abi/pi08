@@ -41,7 +41,7 @@ Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for t
 * Tensorflow 2.3.0rc0
 
 ### Performance
-<p align="center"><img src="data/performance.png" width="640"\></p>
+<p align="center"><img src="data/performance.png" width="640" heigh="1000"\></p>
 
 ### Demo
 

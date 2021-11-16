@@ -1,0 +1,3 @@
+python save_model.py --weights C:\Users\barba\Desktop\tensorflow-yolov4-tflite\data\custom-yolov4-tiny-detector_last.weights --output ./checkpoints/yolov4-tiny-416 --input_size 416 --model yolov4 --tiny 
+
+python save_model.py --weights C:\Users\barba\Desktop\tensorflow-yolov4-tflite\data\custom-yolov4-tiny-detector_last.weights --output ./checkpoints/yolov4-tiny-pretflite-416 --input_size 416 --model yolov4 --tiny --framework tflite

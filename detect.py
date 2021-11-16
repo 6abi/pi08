@@ -22,7 +22,7 @@ flags.DEFINE_string('model', 'yolov4', 'yolov3 or yolov4')
 flags.DEFINE_string('image', './data/kite.jpg', 'path to input image')
 flags.DEFINE_string('output', 'result.png', 'path to output image')
 flags.DEFINE_float('iou', 0.45, 'iou threshold')
-flags.DEFINE_float('score', 0.25, 'score threshold')
+flags.DEFINE_float('score', 0.60, 'score threshold')
 
 def main(_argv):
     config = ConfigProto()
@@ -56,9 +56,9 @@ def main(_argv):
         interpreter.invoke()
         pred = [interpreter.get_tensor(output_details[i]['index']) for i in range(len(output_details))]
         if FLAGS.model == 'yolov3' and FLAGS.tiny == True:
-            boxes, pred_conf = filter_boxes(pred[1], pred[0], score_threshold=0.25, input_shape=tf.constant([input_size, input_size]))
+            boxes, pred_conf = filter_boxes(pred[1], pred[0], score_threshold=0.60, input_shape=tf.constant([input_size, input_size]))
         else:
-            boxes, pred_conf = filter_boxes(pred[0], pred[1], score_threshold=0.25, input_shape=tf.constant([input_size, input_size]))
+            boxes, pred_conf = filter_boxes(pred[0], pred[1], score_threshold=0.60, input_shape=tf.constant([input_size, input_size]))
     else:
         saved_model_loaded = tf.saved_model.load(FLAGS.weights, tags=[tag_constants.SERVING])
         infer = saved_model_loaded.signatures['serving_default']

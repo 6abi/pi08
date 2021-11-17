@@ -67,7 +67,11 @@ If you want to run yolov3 or yolov3-tiny change ``--model yolov3`` in command
 <p align="center"><img src="result.png" width="640"\></p>
 
 ##### Yolov4 tflite int8
+<<<<<<< HEAD
 <p align="center"><img src="data/video_result.gif" width="640" height="800"\></p>
+=======
+<p align="center"><img src="data/video_result.gif" width="640" height="900"\></p>
+>>>>>>> f24d4cbeb59958209834be0300ba4160a3218f02
 
 ### Convert to tflite
 

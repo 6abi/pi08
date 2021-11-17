@@ -1,9 +1,12 @@
-import  capture_image
-import  detect
+from capture_image import capture_image
+from detect import *
 
 def image_detect():
-    captured_image
-    detect
+    capture_image()
 
 if __name__ == '__main__':
-    image_detect()
+    try:
+        image_detect()
+        app.run(detect_image)
+    except SystemExit:
+        pass

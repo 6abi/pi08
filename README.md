@@ -41,7 +41,7 @@ Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for t
 * Tensorflow 2.3.0rc0
 
 ### Performance
-<p align="center"><img src="data/performance.png" width="640"\></p>
+<p align="center"><img src="data/performance.png" width="640" heigh="1000"\></p>
 
 ### Demo
 
@@ -67,7 +67,7 @@ If you want to run yolov3 or yolov3-tiny change ``--model yolov3`` in command
 <p align="center"><img src="result.png" width="640"\></p>
 
 ##### Yolov4 tflite int8
-<p align="center"><img src="data/results.mp4" width="640"\></p>
+<p align="center"><img src="data/video_result.gif" width="640" height="800"\></p>
 
 ### Convert to tflite
 

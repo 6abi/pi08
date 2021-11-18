@@ -15,7 +15,9 @@
 	<p align="left">🚧 Em construção... 🚧</p>
 </h4>
 
-
+ <h2 align="left"> Como executar o projeto na Raspberry pi </h2>
+<p align="left"> Git clone</p>
+<p align="left"> </p>
 <!-- Technologies involved -->
 <!--
 <div align="left" class='container'>

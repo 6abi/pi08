@@ -18,9 +18,9 @@
 ### Como executar o projeto na Raspberry pi
 ```bash
 	git clone
-	tenha o tensorflow lite e opencv instalados, caso não tenha siga esse tutorial
+	tenha o tensorflow lite e opencv instalados, caso não tenha siga o tutorial no link abaixo tutorial
 ```
-<a href="https://www.youtube.com/watch?v=bY_F1hthAZ8&ab_channel=PythonLessons" target="_blank" align = "left">config raspberry</a>
+	<a href="https://www.youtube.com/watch?v=bY_F1hthAZ8&ab_channel=PythonLessons" target="_blank" align = "left">config raspberry</a>
 
 <!-- Technologies involved -->
 <!--

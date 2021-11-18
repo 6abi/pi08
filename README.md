@@ -16,8 +16,9 @@
 </h4>
 
  <h2 align="left"> Como executar o projeto na Raspberry pi </h2>
-<p align="left"> Git clone</p>
-<p align="left"> </p>
+```bash
+
+```
 <!-- Technologies involved -->
 <!--
 <div align="left" class='container'>

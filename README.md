@@ -17,7 +17,7 @@
 
  <h2 align="left"> Como executar o projeto na Raspberry pi </h2>
 ```bash
-
+	git clone
 ```
 <!-- Technologies involved -->
 <!--

@@ -18,7 +18,7 @@ flags.DEFINE_string('weights', './checkpoints/yolov4-tiny-416.tflite','path to w
 flags.DEFINE_integer('size', 416, 'resize images to')
 flags.DEFINE_boolean('tiny', True, 'yolo or yolo-tiny')
 flags.DEFINE_string('model', 'yolov4', 'yolov3 or yolov4')
-flags.DEFINE_string('image', './data/test_defeito.jpg', 'path to input image')
+flags.DEFINE_string('image', './data/captured_image.jpg', 'path to input image')
 flags.DEFINE_string('output', './data/result.png', 'path to output image')
 flags.DEFINE_float('iou', 0.45, 'iou threshold')
 flags.DEFINE_float('score', 0.60, 'score threshold')

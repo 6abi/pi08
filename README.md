@@ -15,10 +15,11 @@
 	<p align="left">🚧 Em construção... 🚧</p>
 </h4>
 
- <h2 align="left"> Como executar o projeto na Raspberry pi </h2>
+### Como executar o projeto na Raspberry pi
 ```bash
 	git clone
 ```
+
 <!-- Technologies involved -->
 <!--
 <div align="left" class='container'>

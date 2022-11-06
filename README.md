@@ -12,7 +12,7 @@
  <!-- Status  -->
  <h2 align="left"> ⁉ Status </h2>
 <h4 align="left"> 
-	<p align="left">🚧 Em construção... 🚧</p>
+	<p align="left">Finalizado</p>
 </h4>
 
 ### Como executar o projeto na Raspberry pi

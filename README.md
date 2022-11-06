@@ -18,7 +18,7 @@
 ### Como executar o projeto na Raspberry pi
 ```bash
 	git clone <this repository>
-	#tenha o tensorflow lite e opencv instalados, caso não tenha siga o tutorial no link abaixo tutorial
+	#tenha o tensorflow lite e opencv instalados, caso não tenha siga o tutorial no link abaixo
 ```
 <a href="https://www.youtube.com/watch?v=bY_F1hthAZ8&ab_channel=PythonLessons" target="_blank" align = "left">config raspberry</a>
 ```bash
@@ -62,7 +62,6 @@ Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for t
 <p align="center"><img src="data/performance.png" width="640" heigh="1000"\></p>
 
 ### Demo
-
 ```bash
 # Convert darknet weights to tensorflow
 ## yolov4
